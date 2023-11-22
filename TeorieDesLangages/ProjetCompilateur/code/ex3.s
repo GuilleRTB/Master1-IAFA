@@ -1,0 +1,28 @@
+SETI  R0,#0
+SETI  R1,#1
+
+@width r2
+@heigh r3
+INVOKE 1, 2, 3
+
+@ i
+SETI R4,#0
+@ j
+SETI R5,#0
+
+L1:
+GOTO_GE L2, R4, R2
+INVOKE 3, 4, 5
+INVOKE 4, 1, 0
+ADD R4, R4, R1
+GOTO  L1
+
+L2:
+SET R4,R0
+ADD R5,R5,R1
+GOTO_GE L3, R5, R3
+GOTO L1
+
+L3:
+	
+	STOP

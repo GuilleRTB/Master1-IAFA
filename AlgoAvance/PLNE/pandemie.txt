@@ -1,0 +1,11 @@
+SCIP Status        : problem is solved [optimal solution found]
+Solving Time (sec) : 0.05
+Solving Nodes      : 1
+Primal Bound       : +3.90000000000000e+01 (5 solutions)
+Dual Bound         : +3.90000000000000e+01
+Gap                : 0.00 %
+
+display solution
+
+objective value:                                   39
+

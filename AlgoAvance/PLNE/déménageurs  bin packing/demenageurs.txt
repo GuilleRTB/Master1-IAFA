@@ -1,0 +1,13 @@
+Q4.1
+majorant = max nombre de boites = nombre d'objets
+
+Q4.2
+objective: minimize som du nombre de boites utiliser 
+
+ctr1:
+pour tout i dans N : 
+
+ctr2:
+
+ctr3:
+
