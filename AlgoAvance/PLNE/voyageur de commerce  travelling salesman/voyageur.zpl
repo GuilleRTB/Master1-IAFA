@@ -1,6 +1,6 @@
 param fichier := "tsp5.txt" ;
 
-set villes := { read fichier as "1n" comment "#" skip 1, <0> } ;
+set Villes := { read fichier as "1n" comment "#" skip 1, <0> } ;
 param x[villes] := { read fichier as "<1s> 2n" comment "#" skip 1, <0> 0 } ;
 param y[villes] := { read fichier as "<1s> 2n" comment "#" skip 1, <0> 0 } ;
 
